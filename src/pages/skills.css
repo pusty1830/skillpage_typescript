@@ -73,3 +73,56 @@ hr{
     margin-left: auto;
   }
 
+/* for tablet */
+
+  @media (max-width: 800px) {
+    .skillscontainer1 {
+      width: 90%;
+      height: auto;
+      margin: 200px auto;
+    }
+  
+    hr {
+      width: 100%;
+    }
+  
+    .selectedskill {
+      width: 120px;
+      padding: 8px 16px;
+    }
+  }
+  
+  /* for mobile  */
+  @media (max-width: 500px) {
+    .skillscontainer1 {
+      width: 100%;
+      height: auto;
+      margin: 250px auto;
+      padding: 10px;
+    }
+  
+    h2 {
+      padding: 10px;
+      font-size: 24px;
+    }
+  
+    hr {
+      width: 100%;
+    }
+  
+    .selectedskill {
+      width: 100px;
+      padding: 6px 12px;
+      font-size: 0.9rem;
+    }
+  
+    .buttons2 {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .buttons2 button {
+      width: 100%;
+      margin: 10px 0;
+    }
+  }
