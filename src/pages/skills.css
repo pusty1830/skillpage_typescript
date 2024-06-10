@@ -1,0 +1,75 @@
+
+.skillscontainer1{
+    border: 3px solid #f5a896;
+    border-radius: 10px;
+    width: 600px;
+    height: 300px;
+    margin: 100px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+  }
+  
+  h2 {
+    color: #1578BE;
+    padding: 20px;
+  }
+.skillsselect1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+    min-height: 150px;
+    max-height: 150px;
+    overflow-y: scroll;
+
+   
+  }
+  .selectedskill{
+    padding: 10px 20px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+    height: 20px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px ;
+    background-color: #5c4b4d;
+    background: #EFEFEF91;
+    border-color: #5c4b4d;
+  }
+  
+hr{
+    border: 1px solid #FD4F13;
+    width:600px;
+}
+.selected1 {
+    background-color: #5c4b4d;
+    color: white;
+    border-color: #5c4b4d;
+   
+  }
+  
+.buttons2 {
+    display: flex;
+    padding: 10px;
+    
+  }
+
+  .buttons2 button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: auto;
+    
+  }
+  .delete{
+    margin-left: auto;
+  }
+
